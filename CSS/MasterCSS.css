@@ -1,0 +1,94 @@
+﻿.navbar-inverse {
+    background-color: #0077C0;
+}
+
+.container{
+    width:450px;
+    margin:auto;
+}
+
+.container a{
+    width: 350px;
+    margin: auto;
+}
+
+
+
+.navbar-header {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.navbar-collapse {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+    .navbar-collapse a {
+        height: 100%; /* Full-height: remove this if you want "auto" height */
+        width: 160px; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        right: 0;
+        background-color: #111; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+    }
+
+    /*.navbar-collapse button {*/
+        /* Full-height: remove this if you want "auto" height */
+        /*width: 80px;*/ /* Set the width of the sidebar */
+        /*position: fixed;*/ /* Fixed Sidebar (stay in place on scroll) */
+        /*z-index: 1;*/ /* Stay on top */
+        /*bottom: 0;
+        right: 35px;
+        margin: auto;*/
+        /* Black */
+        /*overflow-x: hidden;*/ /* Disable horizontal scroll */
+        /*padding-top: 20px;*/
+    /*}*/
+
+    .navbar-collapse a .btn{
+        color: green;
+        background-color:blueviolet;
+    }
+
+
+
+* {
+    margin-right: 25px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+
+@media(max-width:720px){
+    /*.navbar-header {
+        display: none;
+    }
+        .navbar-header button span{
+            width: 50px;*/ /* Set the width of the sidebar */
+            /*position: fixed;*/ /* Fixed Sidebar (stay in place on scroll) */
+            /*z-index: 1;*/ /* Stay on top */
+            /*bottom: 0;
+            right: 35px;
+            margin: auto;
+        }*/
+}
+
+.navbar-collapse collapse li {
+    border: 1px #fff solid;
+}

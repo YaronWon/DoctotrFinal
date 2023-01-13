@@ -1,0 +1,75 @@
+﻿fieldset {
+    margin: auto;
+    display: inline-flex;
+ /*   grid-template-columns: 1fr 1fr;
+    gap: 4px 0.5em;*/
+    width:85%;
+    height:400px;
+}
+
+fieldset .AccBlock {
+     margin: auto;
+     display:flex;
+    /*margin-left: 130px;
+    margin-right: 130px;*/
+    padding-top: 20px;
+    float: right;
+    display: block;
+    margin-top: 45px;
+    width: max-content;
+    /*float:left;*/
+}
+
+.AccBlock {
+   
+}
+.card{
+   /* float:left;*/
+}
+.container {
+    margin: auto;
+   /* float:left;*/
+}
+
+.form-label {
+    margin-left: 20%;
+}
+
+.form-control {
+    margin: auto;
+}
+
+fieldset {
+    border: none;
+    border-top: 1px solid #8ebf42;
+    align-content: center;
+    float:left;
+    width:750px;
+      margin:auto;
+}
+
+    fieldset h2 {
+        position: fixed;
+        margin-bottom: 10%;
+        margin-top: 15px;
+    }
+
+.Head {
+    color: #8ebf42;
+}
+
+
+
+.Container {
+    width: 50%;
+    margin: auto;
+    border: dashed;
+   /* align-content: center;*/
+    background-color: aqua;
+}
+
+.Errors {
+    color: red;
+    font-size: 20px;
+}
+
